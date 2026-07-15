@@ -1,0 +1,5 @@
+{
+  "name": "gangs-site",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.0", "mongoose": "^8.0.0" }
+}
