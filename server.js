@@ -7,8 +7,8 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const LOGO_URL = "https://cdn.discordapp.com/attachments/1491450273892143285/1526729536283349093/IMG_5977.webp?ex=6a58152e&is=6a56c3ae&hm=a17eb5802a4cf947f3238606c7c3580e253b866a2def9b3f4518069effc4e688&.png";
-const BG_URL = "https://cdn.discordapp.com/attachments/1491450273892143285/1526730668611211264/IMG_5440.jpg";
+const LOGO_URL = "https://cdn.discordapp.com/attachments/1491450273892143285/1527926001366204436/C7BE8771-A5F6-4A0D-9DCA-36C1D7496DD5.png";
+const BG_URL = "https://cdn.discordapp.com/attachments/1491450273892143285/1527928888532144159/BA842B21-7123-446C-B2F3-5B95A8BDDDA3.png";
 const CLIENT_ID = '1527924352513736774';
 const CLIENT_SECRET = 'gqxh44n-X8xmsnNNUwj4wEP2yWdhrqkV';
 const GUILD_ID = '1418423847790579784';
