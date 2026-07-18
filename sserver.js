@@ -247,6 +247,7 @@ module.exports = startWebsite;
 // إذا صار require() لهذا الملف من ملف ثاني (بوت رئيسي يمرر client جاهز)،
 // هذا الجزء ما يشتغل، وتقدر تستخدم startWebsite(client) بنفسك هناك.
 if (require.main === module) {
+    startWebsite();
     const { Client, GatewayIntentBits } = require('discord.js');
 
     if (!process.env.DISCORD_TOKEN) {
