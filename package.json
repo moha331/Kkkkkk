@@ -1,9 +1,9 @@
 {
   "name": "dt-military-site",
   "version": "1.0.0",
-  "main": "sserver.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node sserver.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
